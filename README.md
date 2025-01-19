@@ -28,14 +28,20 @@
 ## Dependences
 
  - automatic download:
+#### Arch linux 
 ```
 sudo pacman -S nvim 
+```
+### Debian 
+```
+sudo apt install nvim 
 ```
 ```
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ```
+
 ## Install 
 just copy the `nvim` folder to your `config`
 ```
