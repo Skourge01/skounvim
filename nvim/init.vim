@@ -33,7 +33,7 @@ colorscheme github_dark_default
 
 " Mapeamentos para o NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>   " Alternar NERDTree
-autocmd vimenter * NERDTree          " Abrir o NERDTree automaticamente
+"autocmd vimenter * NERDTree          " Abrir o NERDTree automaticamente
 autocmd bufwinleave * if !tabpagenr('$') | quit | endif  " Fechar NERDTree quando o último arquivo for fechado
 vnoremap <C-c> "+y
 nnoremap <C-v> "+p
