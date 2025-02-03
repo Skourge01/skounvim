@@ -1,4 +1,3 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                     .config/nvim/init.lua
 -- Carregar e configurar o Packer (gerenciador de plugins)
 vim.cmd([[packadd packer.nvim]])
 
